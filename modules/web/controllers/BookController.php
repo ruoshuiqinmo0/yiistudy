@@ -1,0 +1,40 @@
+<?php
+
+namespace app\modules\web\controllers;
+
+class BookController extends \yii\web\Controller
+{
+
+    public function actionImages()
+    {
+
+        return $this->render('images');
+    }
+
+    public function actionIndex()
+    {
+
+        return $this->render('index');
+    }
+
+    public function actionInfo()
+    {
+        return $this->render('info');
+    }
+
+    public function actionSet()
+    {
+        return $this->render('set');
+    }
+
+    public function actionCat()
+    {
+        return $this->render('cat');
+    }
+
+    public function actionCat_set()
+    {
+        return $this->render('cat_set');
+    }
+
+}
