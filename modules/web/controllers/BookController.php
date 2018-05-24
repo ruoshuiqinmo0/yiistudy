@@ -5,7 +5,7 @@ use Yii;
 
 class BookController extends \yii\web\Controller
 {
-	public $modelClass = "app\models\book";
+	public $modelClass = "app\models\";
     public function actionImages()
     {
     	$nickname = Yii::$app->request->get('name', '');
