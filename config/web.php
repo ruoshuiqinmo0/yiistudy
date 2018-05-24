@@ -47,6 +47,7 @@ $config = [
         ],
         'm' => [
             'class' => 'app\modules\m\MModule',
+        	'layout'=>'m',
         ],
     ],
 ];

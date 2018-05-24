@@ -1,12 +1,14 @@
 <?php
 
 namespace app\modules\web\controllers;
+use Yii;
 
 class BookController extends \yii\web\Controller
 {
 
     public function actionImages()
     {
+    	$nickname = Yii::$app->request->get('name', '');
 
         return $this->render('images');
     }

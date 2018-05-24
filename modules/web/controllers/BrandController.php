@@ -11,7 +11,10 @@ class BrandController extends \yii\web\Controller
 
     public function actionInfo()
     {
-        return $this->render('info');
+    	if(\Yii::$app->request->isGet){
+	        return $this->render('info');
+
+    	}
     }
 
     public function actionSet()
