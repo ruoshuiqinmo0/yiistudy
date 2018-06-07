@@ -40,16 +40,7 @@ $config = [
         'db' => require(__DIR__ . '/db.php'),
     ],
     'params' => $params,
-    'modules' => [
-        'web' => [
-            'class' => 'app\modules\web\WebModule',
-            'layout'=>'web',
-        ],
-        'm' => [
-            'class' => 'app\modules\m\MModule',
-        	'layout'=>'m',
-        ],
-    ],
+
 ];
 
 if (YII_ENV_DEV) {
